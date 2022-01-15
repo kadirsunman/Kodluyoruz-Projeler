@@ -10,7 +10,7 @@ public class KDVHesaplama {
 
         //Kullanıcıdan fiyat alıyoruz
         System.out.print("Fiyat Giriniz : ");
-        girilenFiyat = scan.nextInt();
+        girilenFiyat = scan.nextFloat();
 
         //Hesaplama bölümü
         if(girilenFiyat > 0 && girilenFiyat < 1000)

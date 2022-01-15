@@ -9,7 +9,7 @@ public class UcgenAlanHesaplama {
     double alan;
     Scanner scan = new Scanner(System.in);
 
-    //Kullanıcıdan fiyat alıyoruz
+    //Kullanıcıdan üçgenin kenarlarını alıyoruz.
     System.out.print("1. Kenarı giriniz : ");
     kenar1 = scan.nextFloat();
 
